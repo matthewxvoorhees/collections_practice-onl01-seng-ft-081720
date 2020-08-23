@@ -38,4 +38,9 @@ def sum_array(array)
   array.inject do |a, b|
     
 end
+
+
+[3, 6, 10, 13].inject(:+) => (((3 + 6) + 10) + 13) => 32
+
+
   
