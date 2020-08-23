@@ -35,6 +35,7 @@ array.find_all do |string|
 end
   
 def sum_array(array)
-  array.inject
+  array.inject do |a, b|
+    
 end
   
