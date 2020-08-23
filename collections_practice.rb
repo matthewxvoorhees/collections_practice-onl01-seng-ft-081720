@@ -18,4 +18,8 @@ def swap_elements(array)
   end
 end
 
-def swap_elements_from_to()
+def swap_elements_from_to(array, index, destination_index)
+  array.sort do |a, b|
+    a[index] <=> b[destination_index]
+  end
+end
