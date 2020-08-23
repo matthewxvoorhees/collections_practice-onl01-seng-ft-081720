@@ -13,6 +13,8 @@ def sort_array_char_count(array)
 
 end
 
+
+
 def sort_string(value)
     array = value.split ""
     array.sort!
