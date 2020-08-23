@@ -45,8 +45,9 @@ def add_s(array)
     if array[1] == word
       word
     elsif 
-      word + "s"
+      new_word = word + "s"
       end
+      new_word
     end
   end
     
