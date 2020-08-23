@@ -44,7 +44,7 @@ def add_s(array)
   array.collect do |word|
     if array[1] == word
       word
-    elsif 
+    else 
       new_word = word + "s"
       end
       new_word
