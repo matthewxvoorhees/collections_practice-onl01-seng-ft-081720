@@ -24,4 +24,4 @@ end
 
 def kesha_maker(array)
   array.each do |string|
-    string.length 
+    string.slice[2]
