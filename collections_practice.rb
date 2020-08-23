@@ -41,7 +41,6 @@ def sum_array(array)
 end
 
 
-[3, 6, 10, 13].inject(:+) => (((3 + 6) + 10) + 13) => 32
 
 
   
