@@ -17,3 +17,5 @@ def swap_elements(array)
     a[1] <=> b[2]
   end
 end
+
+def swap_elements_from_to()
