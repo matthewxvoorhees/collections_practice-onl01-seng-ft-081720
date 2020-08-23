@@ -23,7 +23,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |string|
+  array.each_with_index do |string, idx|
     string.sub(string[2], "$")
   end
 end
