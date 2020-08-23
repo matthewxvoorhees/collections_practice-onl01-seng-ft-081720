@@ -34,4 +34,8 @@ array.find_all do |string|
   end
 end
   
+def sum_array(array)
+  
+  
+end
   
