@@ -11,11 +11,3 @@ def sort_array_char_count(array)
     a.length <=> b.length 
   end
 
-
-
-
-def sort_string(value)
-    array = value.split ""
-    array.sort!
-    result = array.join
-    return result
