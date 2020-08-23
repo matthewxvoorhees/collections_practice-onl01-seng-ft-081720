@@ -12,3 +12,11 @@ def sort_array_char_count(array)
   end
 
 end
+
+def sort_string(value)
+    array = value.split ""
+    # Sort the characters.
+    array.sort!
+    # Join the characters into a new string.
+    result = array.join
+    return result
